@@ -31,7 +31,7 @@ Each solution includes:
 * ✅ Clean and readable C++ implementation
 * ✅ Problem name and difficulty
 * ✅ Approach explanation (brief and focused)
-* ✅ Time & space complexity analysis
+* ✅ Time complexity
 
 Example:
 
