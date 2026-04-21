@@ -47,22 +47,19 @@ return {};
     * Space Complexity: O(1)
  */
 
-class SecondSolution {
+class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int>& nums, int target) {      
 
-      
-       int n , m ; 
 
         for(int i = 0 ; i < nums.size() ; i++) {
             for(int j = i + 1  ; j < nums.size() ;j++) {
                 if(nums[i] + nums[j] == target) {
-                   n = i ; 
-                   m = j ;
+                    return {i , j};
                 }
             }
         }
 
-        return {n , m};
+        return {};
     }
 };
